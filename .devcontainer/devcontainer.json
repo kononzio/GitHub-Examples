@@ -1,13 +1,21 @@
 // See https://containers.dev/implementors/json_reference/ for configuration reference
 {
 	"name": "Basic config",
-"remoteUser": "devcontainer",
-"customizations": {
+  "customizations": {
 	"vscode": {
 		"extensions": [
 			"mhutchie.git-graph",
 			"phil294.git-log--graph"
 		]
-	}
+	},
+	"codespaces": {
+      "repositories": {
+        "kononzio/GitHub-Examples": {
+          "permissions": {
+            "pull_requests": "write"
+          }
+        }
+      }
+    }
 }
 }
