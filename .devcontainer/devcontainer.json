@@ -7,15 +7,6 @@
 			"mhutchie.git-graph",
 			"phil294.git-log--graph"
 		]
-	},
-	"codespaces": {
-      "repositories": {
-        "kononzio/GitHub-Examples": {
-          "permissions": {
-            "pull_requests": "write"
-          }
-        }
-      }
-    }
+	}
 }
 }
