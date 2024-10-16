@@ -1,6 +1,6 @@
 git tag 1.0.0
 
-git push --tag
+git push --tags
 
 git checkout 1.0.0
 
